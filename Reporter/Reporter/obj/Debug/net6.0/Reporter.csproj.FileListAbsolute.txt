@@ -1,0 +1,15 @@
+C:\Users\AMD\Desktop\PatternLabs\Reporter\Reporter\bin\Debug\net6.0\Reporter.exe
+C:\Users\AMD\Desktop\PatternLabs\Reporter\Reporter\bin\Debug\net6.0\Reporter.deps.json
+C:\Users\AMD\Desktop\PatternLabs\Reporter\Reporter\bin\Debug\net6.0\Reporter.runtimeconfig.json
+C:\Users\AMD\Desktop\PatternLabs\Reporter\Reporter\bin\Debug\net6.0\Reporter.dll
+C:\Users\AMD\Desktop\PatternLabs\Reporter\Reporter\bin\Debug\net6.0\Reporter.pdb
+C:\Users\AMD\Desktop\PatternLabs\Reporter\Reporter\obj\Debug\net6.0\Reporter.csproj.AssemblyReference.cache
+C:\Users\AMD\Desktop\PatternLabs\Reporter\Reporter\obj\Debug\net6.0\Reporter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AMD\Desktop\PatternLabs\Reporter\Reporter\obj\Debug\net6.0\Reporter.AssemblyInfoInputs.cache
+C:\Users\AMD\Desktop\PatternLabs\Reporter\Reporter\obj\Debug\net6.0\Reporter.AssemblyInfo.cs
+C:\Users\AMD\Desktop\PatternLabs\Reporter\Reporter\obj\Debug\net6.0\Reporter.csproj.CoreCompileInputs.cache
+C:\Users\AMD\Desktop\PatternLabs\Reporter\Reporter\obj\Debug\net6.0\Reporter.dll
+C:\Users\AMD\Desktop\PatternLabs\Reporter\Reporter\obj\Debug\net6.0\refint\Reporter.dll
+C:\Users\AMD\Desktop\PatternLabs\Reporter\Reporter\obj\Debug\net6.0\Reporter.pdb
+C:\Users\AMD\Desktop\PatternLabs\Reporter\Reporter\obj\Debug\net6.0\Reporter.genruntimeconfig.cache
+C:\Users\AMD\Desktop\PatternLabs\Reporter\Reporter\obj\Debug\net6.0\ref\Reporter.dll
