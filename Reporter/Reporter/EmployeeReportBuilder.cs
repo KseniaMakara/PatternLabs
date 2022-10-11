@@ -12,21 +12,19 @@ namespace Reporter
 
         private readonly IEnumerable<Employee> _employees;
 
+        protected Employee emp = new Employee();
         public EmployeeReportBuilder(IEnumerable<Employee> employees)
         {
             _employees = employees;
             _employeeReport = new();
         }
 
-        public IEmployeeReportBuilder BuildHeader()
+        
+        public IEmployeeReportBuilder SetName(string name)
         {
-            _employeeReport.Header =
-                $"EMPLOYEES REPORT ON DATE: {DateTime.Now}\n";
+            this.emp.Name = name;
+            return this; 
 
-            _employeeReport.Header +=
-                "\n----------------------------------------------------------------------------------------------------\n";
-
-            return this;
         }
 
         public IEmployeeReportBuilder BuildBody()
@@ -34,20 +32,25 @@ namespace Reporter
             _employeeReport.Body =
                 string.Join(Environment.NewLine,
                     _employees.Select(e =>
-                    $"Employee: {e.Name}\t\tSalary: {e.Salary}$"));
+                    $" <!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n  " +
+                    $" {_employeeReport.Header} \r\n                \"HEADER: {DateTime.Now};\r\n"+
+                    $"  <meta charset=\"UTF-8\">\r\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\r\n  " +
+                    $"  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Document</title>\r\n</head>\r\n<body>\r\n  " +
+                    $"  <img src=\"https://d.newsweek.com/en/full/2045206/hunter-x-hunter.png\" alt=\"\">\r\n</body>\r\n <footer>\r\n   " +
+                    $" {_employeeReport.Footer}\r\n   $\"\\FOOTER $\"\\Made by Ksenia Makara\"; \r\n</footer></html> $"));
 
             return this;
         }
 
         public IEmployeeReportBuilder BuildFooter()
         {
-            _employeeReport.Footer =
-                "\n----------------------------------------------------------------------------------------------------\n";
+            //_employeeReport.Footer =
+            //    "\n----------------------------------------------------------------------------------------------------\n";
 
-            _employeeReport.Footer +=
-                $"\nTOTAL EMPLOYEES: {_employees.Count()}, " +
-                $"TOTAL SALARY: {_employees.Sum(e => e.Salary)}" +
-                $"\nMade by Ksenia Makara";
+            //_employeeReport.Footer +=
+            //    $"\nTOTAL EMPLOYEES: {_employees.Count()}, " +
+            //    $"TOTAL SALARY: {_employees.Sum(e => e.Salary)}" +
+            //    $"\nMade by Ksenia Makara";
 
             return this;
         }

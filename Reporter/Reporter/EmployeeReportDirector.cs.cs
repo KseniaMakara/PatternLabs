@@ -18,9 +18,9 @@ namespace Reporter
         public void Build()
         {
             _builder
-                .BuildHeader()
                 .BuildBody()
                 .BuildFooter();
         }
+        
     }
 }

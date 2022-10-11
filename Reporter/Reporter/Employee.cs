@@ -9,7 +9,8 @@ namespace Reporter
     public class Employee
     {
         public string Name { get; set; }
+        public long Salary { get; set; }
 
-        public decimal Salary { get; set; }
+
     }
 }
