@@ -1,0 +1,15 @@
+C:\Users\AMD\Desktop\PatternLabs\PatternMod\PatternMod\obj\Debug\net6.0\PatternMod.csproj.AssemblyReference.cache
+C:\Users\AMD\Desktop\PatternLabs\PatternMod\PatternMod\obj\Debug\net6.0\PatternMod.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AMD\Desktop\PatternLabs\PatternMod\PatternMod\obj\Debug\net6.0\PatternMod.AssemblyInfoInputs.cache
+C:\Users\AMD\Desktop\PatternLabs\PatternMod\PatternMod\obj\Debug\net6.0\PatternMod.AssemblyInfo.cs
+C:\Users\AMD\Desktop\PatternLabs\PatternMod\PatternMod\obj\Debug\net6.0\PatternMod.csproj.CoreCompileInputs.cache
+C:\Users\AMD\Desktop\PatternLabs\PatternMod\PatternMod\bin\Debug\net6.0\PatternMod.exe
+C:\Users\AMD\Desktop\PatternLabs\PatternMod\PatternMod\bin\Debug\net6.0\PatternMod.deps.json
+C:\Users\AMD\Desktop\PatternLabs\PatternMod\PatternMod\bin\Debug\net6.0\PatternMod.runtimeconfig.json
+C:\Users\AMD\Desktop\PatternLabs\PatternMod\PatternMod\bin\Debug\net6.0\PatternMod.dll
+C:\Users\AMD\Desktop\PatternLabs\PatternMod\PatternMod\bin\Debug\net6.0\PatternMod.pdb
+C:\Users\AMD\Desktop\PatternLabs\PatternMod\PatternMod\obj\Debug\net6.0\PatternMod.dll
+C:\Users\AMD\Desktop\PatternLabs\PatternMod\PatternMod\obj\Debug\net6.0\refint\PatternMod.dll
+C:\Users\AMD\Desktop\PatternLabs\PatternMod\PatternMod\obj\Debug\net6.0\PatternMod.pdb
+C:\Users\AMD\Desktop\PatternLabs\PatternMod\PatternMod\obj\Debug\net6.0\PatternMod.genruntimeconfig.cache
+C:\Users\AMD\Desktop\PatternLabs\PatternMod\PatternMod\obj\Debug\net6.0\ref\PatternMod.dll
